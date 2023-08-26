@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(202, 228, 252, 0.123);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Italiana";
+    font-weight: 900;
+    padding: 1rem 10%;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    padding: 3rem 10%;
+    gap: 3rem;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.toplogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.tag {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    text-align: center;
+
+}
+
+li:hover {
+    text-decoration: underline;
+    color: rgb(8, 8, 8);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.herobuttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+
+}
+
+button {
+    font-size: 19px;
+    border: 1px solid transparent;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.096);
+
+}
+
+.leftb{
+    font-weight: bold;
+}
+
+.rightb {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.rightb:hover {
+    font-weight: 600;
+    display: block;
+}
+
+.foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: flex-start;
+    padding: 5rem 1.5rems;
+    box-shadow: 1px 5px 1rem rgba(0, 0, 0, 0.11);
+}
+
+.fl {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.fl, .fr{
+    padding: 2rem 1.5rem;
+}
+
+.leftpart{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(pri.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.burneraa {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(pro.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 20px;
+
+
+}
+
+.burneree {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(pru.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 20px;
+
+
+}
+
+.rightpart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    width: 50%;
+}
+
+.burner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    gap: 20px;
+    margin: 1rem;
+}
+
+.burnera {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    gap: 20px;
+    margin: 1rem;
+
+}
+
+.burnere{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    gap: 20px;
+    margin: 1rem;
+}
+
+.text {
+    border-right: 1px solid rgba(0, 0, 0, 0.205);
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    font-weight: bolder;
+}
+
+.two {
+    font-size: 0.8rem;
+}
+
+.fr {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+
